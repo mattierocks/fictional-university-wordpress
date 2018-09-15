@@ -1,0 +1,59 @@
+[30-Aug-2018 16:11:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_CLI\SynopsisValidator' not found in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php:254
+Stack trace:
+#0 phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(386): WP_CLI\Dispatcher\Subcommand->validate_args(Array, Array, Array)
+#1 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(323): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#2 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(330): WP_CLI\Runner->run_command(Array, Array)
+#3 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(985): WP_CLI\Runner->_run_command()
+#4 phar:///usr/local/bin/wp/php/WP_CLI/Bootstrap/LaunchRunner.php(23): WP_CLI\Runner->start()
+#5 phar:///usr/local/bin/wp/php/bootstrap.php(75): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#6 phar:///usr/local/bin/wp/php/wp-cli.php(23): WP_CLI\bootstrap()
+#7 phar:///usr/local/bin/wp/php/boot-phar.php(8): include('phar:///usr/loc...')
+#8 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#9 {main}
+  thrown in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php on line 254
+[30-Aug-2018 16:11:51 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_CLI\SynopsisValidator' not found in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php:254
+Stack trace:
+#0 phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(386): WP_CLI\Dispatcher\Subcommand->validate_args(Array, Array, Array)
+#1 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(323): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#2 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(330): WP_CLI\Runner->run_command(Array, Array)
+#3 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(985): WP_CLI\Runner->_run_command()
+#4 phar:///usr/local/bin/wp/php/WP_CLI/Bootstrap/LaunchRunner.php(23): WP_CLI\Runner->start()
+#5 phar:///usr/local/bin/wp/php/bootstrap.php(75): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#6 phar:///usr/local/bin/wp/php/wp-cli.php(23): WP_CLI\bootstrap()
+#7 phar:///usr/local/bin/wp/php/boot-phar.php(8): include('phar:///usr/loc...')
+#8 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#9 {main}
+  thrown in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php on line 254
+[13-Sep-2018 19:27:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[13-Sep-2018 19:45:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 10
+[13-Sep-2018 19:46:00 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /app/public/wp-content/themes/fictional-university-theme/index.php:7
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[13-Sep-2018 20:04:28 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/fictional-university-theme/index.php on line 10
+[13-Sep-2018 20:04:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/index.php on line 12
+[13-Sep-2018 20:05:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/index.php on line 13
+[13-Sep-2018 20:06:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 8
+[13-Sep-2018 20:47:41 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[14-Sep-2018 21:52:05 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 22
+[14-Sep-2018 22:08:44 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 35
+[14-Sep-2018 22:29:51 UTC] PHP Parse error:  syntax error, unexpected 'add_theme_support' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 14
+[14-Sep-2018 22:29:51 UTC] PHP Parse error:  syntax error, unexpected 'add_theme_support' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 14
+[14-Sep-2018 23:02:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_author() in /app/public/wp-content/themes/fictional-university-theme/index.php:22
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/index.php on line 22
+[15-Sep-2018 19:44:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function title() in /app/public/wp-content/themes/fictional-university-theme/archive.php:9
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/archive.php on line 9
+[15-Sep-2018 19:45:44 UTC] PHP Parse error:  syntax error, unexpected 'the_author' (T_STRING), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/archive.php on line 12
